@@ -38,9 +38,6 @@
       let text = document.getElementById("input").value;
       if(!text) return alert("Enter text");
 document.getElementById("result").innerText = "Processing...";
-
-      // sk-ws-H.REDXMHR.iSnW.MEYCIQCrnOYbW7CMRELvDPiAfwKivDK4p-b-8yw1m4AzA3HykAIhAIr8qxWsKEmDVglTn41mXCPR485pM5FG-2rKQl1UaqIi
-
       const res = await fetch("https://sk-ws-H.REDXMHR.iSnW.MEYCIQCrnOYbW7CMRELvDPiAfwKivDK4p-b-8yw1m4AzA3HykAIhAIr8qxWsKEmDVglTn41mXCPR485pM5FG-2rKQl1UaqIi", {
         method:"POST",
         headers:{"Content-Type":"application/json"},
